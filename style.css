@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; /*isso alinha todos os elementos da pagina pelo centro*/
+}
+
+#hero {
+  width: 592px; /*ao definir um temanho especifico para algo, ele acaba se decentralizando do alinhamento definido anteriormente, para corrigir isso, adicione um margin, como visto abaixo*/
+  margin: 0 auto 72px; /*o margin auto é usado para que o css automaticamente deixe o mesmo espaço nos dois lados (0 é o margin top, auto é o margin das laterais, 72px é o margin bottom*/
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+  
+}
+
+h1 span {
+  font-weight: bold;
+} /* usando o "h1 span" voce altera apenas o span que está dentro do h1*/
+
+
+
+span {
+  color: #FF9900;
+
+}
+
+p {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+a{
+  color: #FF9900;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a { /*o a + a está pegando o "a" que tenha um outro "a" anterior a ele*/
+  margin-left: 28px;
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#footer{
+  margin-bottom: 33px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
